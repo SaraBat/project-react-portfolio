@@ -17,6 +17,7 @@ export const ProjectList = () => {
 
   return (
     <div>
+      <h1> Featured Projects </h1>
       <Projects />
     </div>
   );

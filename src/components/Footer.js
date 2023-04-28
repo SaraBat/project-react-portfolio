@@ -6,6 +6,7 @@ import { BioLinks } from './BioLinks';
 export const Footer = () => {
   return (
     <section>
+      <h1> Time to Talk </h1>
       <ProfilePic />
       <BioTitles />
       <BioLinks />
