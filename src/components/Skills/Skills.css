@@ -1,0 +1,102 @@
+
+.skills-backgorund {
+    background-color: #FDF2E4;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  
+  .div-skills-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left:auto;
+    margin-right: auto;
+  }
+  
+  .skills-title {
+    text-align: center;
+    margin:auto;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 108px; 
+    color: #0B24F5;
+   
+  }
+  
+  .skills{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 24px;
+  }
+  
+  .skills-title-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .markskill {
+    background-color: #6DB486;
+    color: white;
+    padding: 4px;
+  }
+
+  @media (min-width: 667px) and (max-width: 1024px) {
+
+    .skills-backgorund {
+        padding: 24px;
+    }
+    .skills {
+        padding: 24px;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .skills ul {
+        text-align:start;
+    }
+  
+    .skills h6 {
+        justify-content:left;
+    }
+}
+
+@media (min-width: 1025px) {
+
+    .skills-backgorund {
+        padding: 24px;
+    }
+    .skills {
+        padding: 24px;
+        display: grid;
+        
+        grid-template-columns: repeat(4, 1fr);
+    }
+  
+    .skills ul {
+        text-align:start;
+    }
+  
+    .skills h6 {
+        justify-content:left;
+    }
+}

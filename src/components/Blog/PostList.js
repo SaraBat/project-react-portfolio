@@ -1,6 +1,7 @@
 import React from 'react';
 import { blogArray } from './blogArray';
 import { Post } from './Post';
+import './Blog.css';
 
 export const PostList = () => {
   const Posts = () => {
@@ -16,8 +17,10 @@ export const PostList = () => {
   }
 
   return (
-    <section>
+    <section className="postlist">
       <Posts />
     </section>
   );
 }
+
+// all div names need to be fixed for styling to work
