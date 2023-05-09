@@ -1,0 +1,93 @@
+
+.tech {
+    background-color: #EDFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .tech-title {
+    align-self: center;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 108px; 
+    color: #0B24F5;
+   
+  }
+  
+  .tech-list {
+    text-align: justify;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+    margin: 24px;
+  }
+  
+  .tech-list p {
+    text-align: center;
+  }
+
+  .tech-list mark {
+    color: #FFFFFF;
+    padding: 2px;
+    gap: 8px;
+  }
+
+.pink {
+    background-color: #EB5577;
+  }
+  
+  .blue {
+    background-color: #0B24F5;
+  }
+  
+  .light-blue {
+    background-color: #2483E0;
+  }
+
+  @media (min-width: 667px) and (max-width: 1024px) {
+
+    .tech {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .tech p {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+
+@media (min-width: 1025px) {
+
+    .tech {
+        display: flex;
+        flex-direction: row;
+        justify-content: none;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+  
+    .tech-title {
+        margin: none;
+  
+    }
+  
+    .tech-list {
+        margin: none;
+        width: 25%;
+       
+    }
+  
+    .tech p {
+        text-align: justify;
+    }
+}  

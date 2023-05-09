@@ -1,0 +1,160 @@
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.header-image {
+  display:none;
+  max-width: 100%;
+
+}
+
+.header-image-img {
+  min-width: 100%;
+}
+
+.profile-pic {
+  max-width: 164px;
+  max-height: 164px;
+  border-radius: 50%;
+}
+
+.div-profile-pic {
+  display: flex;
+  justify-content: center;
+  margin: 24px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+  margin: 24px;
+}
+
+.name {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  color: #0B24F5;
+  align-self: flex-start;
+}
+
+.title {
+  font-family: 'Satoshi';
+  font-style: bold;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 43px;
+  color: #000000;
+  align-self: flex-start;
+}
+
+.tag-line {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #565656;
+  align-self: flex-start;
+}
+
+.introduction {
+  font-family: "EB Garamond";
+  text-align: justify;
+
+}
+
+.introduction p {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  color: #000000;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+
+}
+
+.social-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1%;
+}
+
+.icon {
+  font-size: 32px;
+  color: black;
+  opacity: 0.3;
+  padding-right: 24px;
+}
+
+.icon:hover {
+  opacity: 1;
+}
+
+
+ @media (min-width: 667px) and (max-width: 1024px) {
+
+        .header-image {
+            display: flex;
+        }
+        .text-header {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .introduction p {
+            margin-right: 20%;
+            margin-left: 20%;
+        }
+    }
+    
+ @media (min-width: 1025px) {
+
+        .header {
+            display: flex;
+            flex-direction: row;
+            height: 700px;
+        }
+      
+        .header-image {
+            display: flex;
+            order:2;
+            width: 50%;
+        }
+      
+        .business-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            order: 1;
+            
+        }
+      
+        .introduction-social-links {
+            display: flex;
+            flex-direction: column;
+        }
+      
+        .introduction p {
+            margin-right: 20%;
+            margin-left: 20%;
+        }
+        .text-header {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+    }
