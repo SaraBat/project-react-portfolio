@@ -30,7 +30,7 @@
   .info-bottom {
     display: flex;
     flex-direction: column;
-    align-items: center;   
+    align-items: flex-start;   
   }
   .social-links-bottom{
     display: flex;
