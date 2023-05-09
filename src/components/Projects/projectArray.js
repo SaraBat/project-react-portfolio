@@ -26,7 +26,7 @@ export const projectArray = [
     description: 'A multiple-choice quiz with Redux, the assignment was to interact with the store using selectors and dispatching actions. This was my first project in Redux.',
     tags: ['React', 'Redux', 'HTML5', 'CSS3 '],
     githubLink: 'project-redux-quiz',
-    netlifyLink: '' },
+    netlifyLink: 'quiz-about-react' },
 
   { image: '../../assets/survey.png',
     title: 'Survey',
