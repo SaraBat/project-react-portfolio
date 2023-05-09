@@ -8,10 +8,18 @@ import './Footer.css';
 export const Footer = () => {
   return (
     <section className="contacts">
-      <Title1> Time to Talk </Title1>
-      <ProfilePic />
-      <BioTitles />
-      <BioLinks />
+      <a className="contacts-title" alt="mail" href="mailto:sara.battilotti@gmail.com" target="_blank" rel="noreferrer">
+        <Title1> Time to Talk </Title1>
+      </a>
+      <div className="text-header">
+        <ProfilePic />
+        <div className="info-bottom">
+          <BioTitles />
+        </div>
+      </div>
+      <div className="social-links-bottom">
+        <BioLinks />
+      </div>
     </section>
   );
 }
