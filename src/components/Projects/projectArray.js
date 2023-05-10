@@ -2,7 +2,7 @@
 export const projectArray = [
   { image: '../../assets/labyrinth.png',
     title: 'Maze Runner Game',
-    description: 'An interactive game where the user needs to find they way out of a labyrinth.',
+    description: 'An interactive game where the user needs to find the way out of a labyrinth.',
     tags: ['React', 'Redux', 'APIs', 'HTML5', 'CSS3'],
     githubLink: 'project-labyrinth',
     netlifyLink: 'liongroupmazerunner' },
