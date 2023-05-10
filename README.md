@@ -1,4 +1,4 @@
-###Sara's Portfolio in React
+### Sara's Portfolio in React
 
-##Vire live 
+## View live 
 https://portfolio-sara-battilotti.netlify.app/
