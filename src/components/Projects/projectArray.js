@@ -3,7 +3,7 @@ export const projectArray = [
   { image: '../../assets/comingsoon.png',
     title: 'Coming Soon...',
     description: 'A fullstack app for humans to look after their plant babies.',
-    tags: ['React', 'Redux', 'APIs', 'MongoDB', 'GoogleCloud'],
+    tags: ['React', 'Express', 'Node', 'MongoDB', 'GoogleCloud'],
     githubLink: '/',
     netlifyLink: 'happy-thoughtss' },
 
