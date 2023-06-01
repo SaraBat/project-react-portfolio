@@ -1,5 +1,12 @@
 
 export const projectArray = [
+  { image: '../../assets/comingsoon.png',
+    title: 'Coming Soon...',
+    description: 'A fullstack app for humans to look after their plant babies.',
+    tags: ['React', 'Redux', 'APIs', 'MongoDB', 'GoogleCloud'],
+    githubLink: '/',
+    netlifyLink: 'happy-thoughtss' },
+
   { image: '../../assets/labyrinth.png',
     title: 'Maze Runner Game',
     description: 'An interactive game where the user needs to find the way out of a labyrinth.',
