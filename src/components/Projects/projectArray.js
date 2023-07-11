@@ -1,11 +1,11 @@
 
 export const projectArray = [
-  { image: '../../assets/comingsoon.png',
-    title: 'Coming Soon...',
+  { image: '../../assets/plantmama.png',
+    title: 'PlantMama',
     description: 'A fullstack app for humans to look after their plant babies.',
     tags: ['React', 'Express', 'Node', 'MongoDB', 'GoogleCloud'],
-    githubLink: '/',
-    netlifyLink: 'happy-thoughtss' },
+    githubLink: 'PlantMAMA-frontend',
+    netlifyLink: 'plantmama' },
 
   { image: '../../assets/labyrinth.png',
     title: 'Maze Runner Game',
