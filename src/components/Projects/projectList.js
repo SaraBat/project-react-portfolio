@@ -2,6 +2,7 @@ import React from 'react';
 import { Title1 } from 'styles/Title1';
 import { projectArray } from './projectArray';
 import { Project } from './Project';
+import { FinalProject } from './FinalProject';
 import './Projects.css';
 
 export const ProjectList = () => {
@@ -21,6 +22,9 @@ export const ProjectList = () => {
     <div>
       <div className="div-project-title">
         <Title1> Featured Projects </Title1>
+      </div>
+      <div className="div-final-project">
+        <FinalProject />
       </div>
       <div className="featured-projects">
         <Projects />
