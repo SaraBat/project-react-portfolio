@@ -18,8 +18,14 @@
     color: #0B24F5;
     margin: 24px;
   }
-  
+
   .project {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+  }
+
+  .final-project {
     display: flex;
     flex-direction: column;
     margin: 24px;
@@ -28,6 +34,32 @@
   .project-image {
     margin-top: 24px;
     margin-bottom: 24px;
+  }
+
+  .final-project-image {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .final-project-content h2{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 43px;
+    color: #000000;
+  }
+
+  .final-project-content p {
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
   }
   
   .project-content h2{
@@ -84,18 +116,44 @@
         gap: 10px;
   
     }
-  
+    .final-project {
+      background-color: #FCEDEA;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+  }
+  .final-project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
     .project-image {
         width: 35%;
         margin-top: 0;
         margin-bottom: 0;
     }
+
+    .final-project-image {
+      width: 35%;
+      margin-top: 0;
+      margin-bottom: 0;
+  }
 }
 
 @media (min-width: 1025px) {
 
     .featured-projects {
-        padding: 50px;
+        padding: 24px;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
   
     .project-title {
@@ -109,8 +167,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-right: 20%;
-        margin-left: 20%;
     }
   
     .project {
@@ -120,7 +176,19 @@
         gap: 10px;
   
     }
-  
+
+    .final-project {
+      background-color: #FCEDEA;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+      padding: 24px;
+  }
+  .final-project-image {
+    width: 40%;
+}  
+    
     .project-image {
         max-width: 40%;
         max-height: 40%;
@@ -134,7 +202,11 @@
         justify-content: space-evenly;
     }
   
-  
+    .final-project-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  }
   
     .buttons {
         display: flex;

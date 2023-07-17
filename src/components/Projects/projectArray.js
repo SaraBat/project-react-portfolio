@@ -1,11 +1,5 @@
 
 export const projectArray = [
-  { image: '../../assets/plantmama.png',
-    title: 'PlantMama',
-    description: 'PlantMama is an end to end web application I coded with a MongoDB database, a React frontend with Redux store and a NodeJS backend; hosted on Google Cloud. It provides user authentication and integrates with a third party API. It is continuously deployed on Netlify and GCP.',
-    tags: ['React', 'Express', 'Node', 'MongoDB', 'GoogleCloud'],
-    githubLink: 'PlantMAMA-frontend',
-    netlifyLink: 'plantmama' },
 
   { image: '../../assets/labyrinth.png',
     title: 'Maze Runner Game',
