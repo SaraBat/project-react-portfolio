@@ -105,9 +105,6 @@
 
  @media (min-width: 667px) and (max-width: 1024px) {
 
-        .header-image {
-            display: flex;
-        }
         .text-header {
             display: flex;
             flex-direction: row;
