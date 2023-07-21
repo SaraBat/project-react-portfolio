@@ -20,11 +20,14 @@ export const ProjectList = () => {
 
   return (
     <div>
-      <div className="div-project-title">
-        <Title1> Featured Projects </Title1>
+      <div className="div-final-project-title">
+        <Title1> Fullstack Project </Title1>
       </div>
       <div className="div-final-project">
         <FinalProject />
+      </div>
+      <div className="div-project-title">
+        <Title1> Featured Projects </Title1>
       </div>
       <div className="featured-projects">
         <Projects />
