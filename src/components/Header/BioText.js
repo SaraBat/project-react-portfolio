@@ -1,14 +1,14 @@
+/* eslint-disable max-len */
 import React from 'react';
 
 export const BioText = () => {
   return (
     <div className="introduction">
       <p>
-    As frontend developer, I am passionate about bridging the gap between technology and business.
-    After spending years building new markets, I took a leap and learned how to code
-    - my dream is building products that customers love.
-    With a strong foundation in sales and analytics,
-    I bring a unique perspective to every project I embark on.
+      I'm an enthusiastic Frontend Developer looking for a Junior/Mid role. I have a sales background in leading tech companies such as Zendesk & Segment. 
+      I love learning, I'm adaptable and have high attention to details. Thanks to my experience in remote work environments 
+      I know how to effectively manage projects and communicate in virtual settings. 
+      I offer a unique blend of technical and leadership skills that I'm excited to leverage in a new innovative project.
       </p>
     </div>
   );
